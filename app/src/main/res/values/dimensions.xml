@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="linear2_paddingLeft">16dp</dimen>
+    <dimen name="scoreB_textSize">56sp</dimen>
+    <dimen name="scoreB_layout_marginLeft">30dp</dimen>
+</resources>

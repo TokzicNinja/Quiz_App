@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/basketball"
+            tools:ignore="RtlCompat" />
+
+
+        <LinearLayout
+            android:id="@+id/main_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="174dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/icon_group1"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="297dp"
+                android:onClick="ThreePointsA"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="ThreePointsA"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="ThreePointsA"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="ThreePointsA"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/icon_group2"
+                android:layout_width="112dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="-297dp"
+                android:onClick="TwoPointsA"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="TwoPointsA"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="TwoPointsA"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/icon_group3"
+                android:layout_width="60dp"
+                android:layout_height="39dp"
+                android:onClick="OnePointA"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="OnePointA"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/main_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/main_group1"
+            android:layout_marginRight="-5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/icon_group4"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="297dp"
+                android:onClick="ThreePointsB"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:elevation="50dp"
+                    android:onClick="ThreePointsB"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp"
+                    android:visibility="visible" />
+
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="ThreePointsB"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+
+                <ImageButton
+                    style="@android:style/Widget.ImageButton"
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="ThreePointsB"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/icon_group5"
+                android:layout_width="112dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="51dp"
+                android:layout_marginTop="-297dp"
+                android:onClick="TwoPointsB"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="TwoPointsB"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="TwoPointsB"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/icon_group6"
+                android:layout_width="60dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="102dp"
+                android:onClick="OnePointB"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:layout_marginBottom="226dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="OnePointB"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/balltransp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/A_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/Team_A_string"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scoreA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="@string/zero_TeamA"
+                android:textAllCaps="true"
+                android:textSize="56sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/B_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/Team_B_string"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scoreB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/scoreB_layout_marginLeft"
+                android:text="@string/zero_teamB"
+                android:textAllCaps="true"
+                android:textSize="@dimen/scoreB_textSize" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/main_group1"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/linear2_paddingLeft">
+
+            <TextView
+                android:id="@+id/plusThree"
+                android:layout_width="35dp"
+                android:layout_height="33dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/plus_three"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/plusTwo"
+                android:layout_width="35dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/plus_two"
+                android:textAllCaps="true"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/plusOne"
+                android:layout_width="35dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/plus_one"
+                android:textAllCaps="true"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="resetScore"
+            android:text="@string/reset_string" />
+
+
+    </RelativeLayout>
+</ScrollView>
